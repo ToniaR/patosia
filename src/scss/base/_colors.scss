@@ -1,0 +1,29 @@
+//colors
+$primary-color-dark:   #0097A7;
+$primary-color:        #00BCD4;
+$primary-color-light:  #B2EBF2;
+$secondary-color: 	   rgba(0,0,0,.05); 
+$secondary-color-light:#FFFFFF;
+$primary-color-text:   #FFFFFF;
+$accent-color:         #4d59a1;
+$primary-text-color:   #212121;
+$secondary-text-color: #757575;
+$divider-color:        #BDBDBD;
+
+
+
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+:root {
+	--fixed-nav-bg: $secondary-color-light;
+	--fixed-nav-color: $primary-color;
+	--fixed-nav-shadow: rgba(0,0,0,0.1);
+}

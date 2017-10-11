@@ -1,0 +1,27 @@
+// standard styles reset
+
+:root {
+	--body-bg: $secondary-color-light;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+
+body {
+	background: var(--body-bg);
+}
+
+
+

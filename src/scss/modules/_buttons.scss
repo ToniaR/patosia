@@ -1,0 +1,47 @@
+// buttons
+:root {
+	--btn-bg: $primary-color-text;
+	--btn-border-radius: 43px;
+	--btn-color: $primary-color-dark;
+	--card-action-btn-bg: transparent;
+	--mdc-theme-primary: var(--btn-color);
+}
+
+
+
+.mdc-card__action:not(:disabled) {
+	color: var(--btn-color);
+}
+
+/*.mdc-button:not(:disabled):before {
+	background: var(--btn-color);
+}*/
+
+
+
+
+.content__load-btn {
+	display: block;
+	width: 150px;
+    height: 50px;
+	margin: 50px auto;
+	color: var(--btn-color);
+	font-size: 1em;
+	cursor: pointer;
+}
+
+
+.contact-form__send-btn {
+	display: block;
+	width: 20%;	
+	float: right;
+	margin-top: 2rem;
+}
+
+
+
+.mdc-button__accent {
+	color: var(--btn-color);
+}
+
+

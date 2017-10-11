@@ -1,0 +1,107 @@
+// text
+
+
+// начертания шрифтов
+$light: 100;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+// основной шрифт
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+$base-letter-spacing: 0px;
+
+:root {
+	--h1-color: $primary-text-color;
+	--h2-color: $secondary-text-color;
+}
+
+
+// заголовки 
+
+body, html {
+    font-family: 'Roboto', sans-serif;   
+    font-size: $base-font-size;
+}
+
+
+h1{
+	color: var(--h1-color);
+	font-size: $base-font-size * 2;
+	font-weight: $regular;
+}
+
+h2 {
+	font-size: $base-font-size + 4;
+	font-weight: $regular;
+	color: var(--h2-color);
+}
+
+
+.about-block__text {
+	font-size: $base-font-size * 1.2;
+	line-height: $base-line-height * 1.2;
+	font-weight: $light;
+}
+
+
+
+
+
+.contact-block__data-item {
+    font-size: $base-font-size * 1.3;
+    font-weight: $light;
+}
+
+
+.content__title {
+	font-size: $base-font-size * 1.5;
+	font-weight: $regular;
+	text-align: center;
+}
+
+
+.contact__title {
+	font-weight: $regular;
+}
+
+
+
+/* icons styling */
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+
+/* FONT AWESOME icons style */
+ i.fa {
+ 	font-size: $base-font-size * 1.3;
+}
+
+
+
+/* project description typography */
+.mdc-card__title {
+    font-size: $base-font-size * 1.5;
+	font-weight: $regular;
+    text-transform: uppercase;
+	letter-spacing: $base-letter-spacing + 2px;
+	line-height: $base-line-height;
+}
+
+
+.mdc-card__text {
+	font-size: $base-font-size * 1.2;
+	font-weight: $light;
+	letter-spacing: $base-letter-spacing + 2px;
+}
+
+
+

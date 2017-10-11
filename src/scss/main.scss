@@ -1,0 +1,24 @@
+// main css file
+
+@import "base/_colors";
+@import "base/variables";
+@import "base/mixins";
+@import "base/_typography";
+@import "base/_placeholders";
+
+
+//modules and variables
+@import "partials/_base";
+// Partials
+@import "partials/_reset";
+@import "modules/_buttons";
+@import "partials/_grids";
+@import "modules/_components";
+@import "modules/_images";
+@import "modules/_nav";
+
+@import "partials/_breakpoints";
+
+
+//plugins (vendor folder)
+

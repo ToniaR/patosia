@@ -1,0 +1,23 @@
+   %container {
+   	display: block;
+   	width: 100%;
+   	height: 100vh;
+   	box-sizing: border-box;
+   	padding: 100px 0;
+   	margin: 0 auto;
+   }
+
+   %btn {
+   	width: 150px;
+   	height: 50px;
+  	font-size: 1em;
+  	cursor: pointer;
+   }
+
+
+   %aboutEl {
+ 	display: inline-block;
+ 	width: 50%;
+ 	min-width: 320px;
+ 	float: left;  	
+	}
