@@ -5,9 +5,14 @@
 
 
 .nav-block {
+    /*new*/
+    position: relative;
+    z-index: 2;
+    margin: 2% auto;
+    /*new*/
 	width: 100%;
     max-width: var(--main-container-width);
-    margin: 0 auto;
+    // margin: 0 auto;
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -42,10 +47,10 @@
 }
 
 
-.menu__item--active {
-/*	border-bottom: 1px solid var(--border-color);*/
+// .menu__item--active {
+// /*	border-bottom: 1px solid var(--border-color);*/
 
-}
+// }
 
 
 .menu__item:after {
